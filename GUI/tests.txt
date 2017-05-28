@@ -1,0 +1,193 @@
+class x {
+int i;
+
+int fac (int n) 
+	{
+		if (n==0 || n ==1)
+		{
+			return 1;
+		}
+		else 
+		{
+			return n * fac(n-1);
+		}
+	}
+
+void factorial ()
+	{
+	int j;
+		while (i < 10) 
+		{
+			j = j + fac(i);
+		}
+		
+	}
+}
+
+
+//*****************************************************************************************//
+
+class p {
+    int u;
+    int o;
+	
+    struct Pelo {
+		int largo;
+		char color;
+	}   
+
+    struct Rider {
+        int exp;
+        int hp;
+        char name;
+		Pelo lolo;
+    }
+
+    void main(){
+        int x;
+        Rider roro;
+        roro.exp = 1;
+        roro.hp = 90;
+        roro.name = 'A';
+		roro.lolo.largo = 1;
+    }
+}
+
+//**********************************************************************************************//
+
+class p {
+	int u;
+    int o;
+    
+    int hola[1];
+   
+    struct Rider {
+        int exp;
+        int hp;
+        char name;
+    }
+    
+    int suma(int x,int y){
+    	x = x + y;
+    	return x;
+    }
+    
+    char resta(char x){
+    	return x;
+    }
+
+    void main(){
+        int x;
+		if(true){
+		        Rider roro;
+	        	roro.exp = 1;
+		        roro.hp = 90;
+	        	roro.name = 'A';
+		} else {
+			int x;
+			int y;
+			x = 3;
+			y = 7;
+			while (x < 11){
+				x = suma(x,y);
+			}
+		}
+    }
+}
+//************************************************************************************************//
+class p{
+
+	void main(){
+		int x;
+		int y;
+		x = 1;
+		y = 1;
+		
+		if(x == y){
+			return true;
+		}
+		if(x != y){
+			return false;
+		}
+		if(x =< y){
+			return true;
+		}
+		if(x >= y){
+			return true;
+		}
+		if(x < y){
+			return false;
+		}
+		if(x > y ){
+			return false;
+		}
+		if(x % y == 0){
+			return false;
+		}
+		if(x <= y AND true){
+			return true;
+		}
+		if(x <= y OR true){
+			return true;
+		}
+		if(x * y > x){
+			return true;
+		}
+		if(x / y < -1){
+			return true;
+		}
+		x = x + 2;
+		y = y - 1;
+		
+	}
+}
+//************************************************************************************************//
+
+class Program
+{
+
+	int a;
+	int b;
+	
+	
+	struct A
+	{
+		int a;
+	}
+	
+	void OutputInt(int n)
+	{
+	}
+	
+	int InputInt()
+	{return 0;}
+	
+	void Test(int a, int b, int c, int d)
+	{
+		
+	
+	}
+	
+	
+	
+	void main()
+	{	
+		int a;
+		int b;
+		a = 5;
+		
+		OutputInt(a);
+		Test(5,6,7,8);
+	
+	
+		if (a==3)
+		{
+			int b;
+			b = 5;
+			OutputInt(b);
+		}
+	
+		OutputInt(b);
+	
+	}
+}
